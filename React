@@ -1,0 +1,4 @@
+1. What is React?
+Ans: React is the 'V' in the MVC(Model View Controller). It is not a SPA(Single Page Application) framework but a  view library. 
+     Here, your view is hierarchy of components. 
+     
