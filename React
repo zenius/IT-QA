@@ -8,7 +8,7 @@ Ans:  1. Before installing React, you need to install:
      
     "Note": 
     To check whether, it is installed properly or not: 
-    Type in command line: npm -v  [it will display the version for you if it is correctly installed]
+    Type in command line: npm --version  [it will display the version for you if it is correctly installed]
     
    2.Next Step is to choose "Editor": 
     There are plenty of them out there (Sublime, Atom, VS Code,etc.) 
@@ -29,7 +29,9 @@ Ans:  1. Before installing React, you need to install:
        Later, you can add more libraries and change configurations depending on your application need. 
        
        It is better to install zero configuration setup globally. 
-       Type in your command line: npm install -g create-react-app 
+       Type in your command line: npm install -g create-react-app   
+       You can check the version as: create-react-app --version 
+       
        
     
     
