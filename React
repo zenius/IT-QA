@@ -6,7 +6,7 @@ Ans: React is the 'V' in the MVC(Model View Controller). It is not a SPA(Single 
 Ans:  1. Before installing React, you need to install: 
      - node.js [link: https://nodejs.org/en/download/]
      
-    <b>Note</b>: 
+    "Note": 
     To check whether, it is installed properly or not: 
     Type in command line: npm -v  [it will display the version for you if it is correctly installed]
     
@@ -24,7 +24,7 @@ Ans:  1. Before installing React, you need to install:
        You are ready to go!
        To start type: npm start  [It will run local server]
        
-       Note: 
+       "Note": 
        These are basic configurations required to install React. 
        Later, you can add more libraries and change configurations depending on your application need. 
     
