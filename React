@@ -44,6 +44,7 @@ Ans:  1. Before installing React, you need to install:
       The above statement is equivalent to: 
       <div> <h1> hello world </h1> </div> 
 
+      Note: We will explore something more very soon...
 
       
       
