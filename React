@@ -27,6 +27,10 @@ Ans:  1. Before installing React, you need to install:
        "Note": 
        These are basic configurations required to install React. 
        Later, you can add more libraries and change configurations depending on your application need. 
+       
+       It is better to install zero configuration setup globally. 
+       Type in your command line: npm install -g create-react-app 
+       
     
     
     
