@@ -31,6 +31,23 @@ Ans:  1. Before installing React, you need to install:
        It is better to install zero configuration setup globally. 
        Type in your command line: npm install -g create-react-app   
        You can check the version as: create-react-app --version 
+ 
+ 3. What is JSX? 
+ Ans: JSX is the syntax extension to Javascript. It looks something like this: 
+      const element = <h1> hello world </h1>; 
+      
+      It looks similar to HTML Tag but is something more...
+      It combines the features of Javascript with HTML Tag. 
+      
+      So, you can do something like this: 
+      <div> {element} </div>   
+      The above statement is equivalent to: 
+      <div> <h1> hello world </h1> </div> 
+
+
+      
+      
+ 
        
        
     
