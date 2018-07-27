@@ -45,7 +45,27 @@ Ans:  1. Before installing React, you need to install:
       <div> <h1> hello world </h1> </div> 
 
       Note: We will explore something more very soon...
-
+      
+  4. Why use 'const' and 'let' over 'var'?
+  Ans: Generally, 'var' is used to decalare the variable. But due to its side effects! it is being replaced by 'let and 'const'. 
+       When to use 'let': 
+       Use 'let' whenever you know your value will change. 
+       
+       When to use 'const': 
+       Use 'const' whenever you know your value will not change.
+       
+       For example: 
+       let value = 5; 
+       value = 6 ; //here, the value is changed. 
+       value = "i am not a string"; //not allowed
+       
+       
+       const greet = "hello"; 
+       greet = "Good Morning";  //not allowed 
+       
+       But be careful, when you use 'let' and 'const' to declare variables. 
+       
+       We will explore more about 'let' and 'const' very soon...
       
       
  
