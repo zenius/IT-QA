@@ -1,4 +1,32 @@
 1. What is React?
 Ans: React is the 'V' in the MVC(Model View Controller). It is not a SPA(Single Page Application) framework but a  view library. 
      Here, your view is hierarchy of components. 
+
+2. What are the basic steps to install React?
+Ans:  1. Before installing React, you need to install: 
+     - node.js [link: https://nodejs.org/en/download/]
      
+    <b>Note</b>: 
+    To check whether, it is installed properly or not: 
+    Type in command line: npm -v  [it will display the version for you if it is correctly installed]
+    
+   2.Next Step is to choose "Editor": 
+    There are plenty of them out there (Sublime, Atom, VS Code,etc.) 
+    I personally prefer: Visual Studio Code [link: https://code.visualstudio.com/download]
+    
+    3. Finally, In Your Editor or command line: 
+       create a folder: md folder-name  [E.g. md my-react-app]
+       switch to the path: cd folder-name [E.g. cd my-react-app] 
+       Now, install required libraries: npm install -g react react-dom  [react and react-dom are two required libraries to install]
+       Then, create your first React app: create-react-app your-app-name [E.g. create-react-app my-react-app]
+       Last but not least: npm --init [It will intiliaze your package.json file]
+       
+       You are ready to go!
+       To start type: npm start  [It will run local server]
+       
+       Note: 
+       These are basic configurations required to install React. 
+       Later, you can add more libraries and change configurations depending on your application need. 
+    
+    
+    
