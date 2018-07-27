@@ -2,7 +2,7 @@
 Ans: React is the 'V' in the MVC(Model View Controller). It is not a SPA(Single Page Application) framework but a  view library. 
      Here, your view is hierarchy of components. 
 
-2. What are the basic steps to install React?
+2. What are the basic steps to follow to install React?
 Ans:  1. Before installing React, you need to install: 
      - node.js [link: https://nodejs.org/en/download/]
      
