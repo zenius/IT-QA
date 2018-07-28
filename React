@@ -64,8 +64,29 @@
         We will explore more about 'let' and 'const' very soon...
 
 
-
-
+    5. How to render the list of items in React?
+    Ans: To render the list of items in React, you can use "map" function. 
+        Example: 
+            const personList  = [ {name: Bharat, Id: 1}, 
+                {name: Zenius, Id: 2}, 
+                {name: Rhoduens, Id: 3}, 
+           ];  
+        
+           <ul> {personList.map( item =>  <li key = {item.Id} > {item.name}</li>  }</ul> 
+           
+           Do you see we use keyword "key"? It is used to distinguish between the item.
+           Later, it (i.e. key) can be used to delete and update operation. 
+           
+           Caution!:
+           Never use index as key to distinguish the item. If you use index as key, whenever the order of the object changes, 
+           the key will change. So, it will make difficult to reference the item in delete and update operation. 
+           
+           Example: 
+           //do not use index as key 
+            <ul> {personList.map( (item, key) =>  <li key = {key} > {item.name}</li>  }</ul>
+            
+            
+           
 
 
 
