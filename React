@@ -101,6 +101,29 @@
         
         const add = (a , b) => a + b; 
         add(4,5);  //9
+     
+     7. What about ES6 class? 
+     Ans: Javscript ES6 introduced ES6 class. 
+        It will bridge the gap for the developer who comes from the OOP(Object Oriented Programming) background. 
+        
+        The basic structure looks something like this: 
+        
+        class ClassName { 
+           //some methods and properties 
+        } 
+        
+     8. How do you use Javascript ES6 class in React? 
+     Ans: If you come from the OOP background, then you must know the concept called "inheritance". 
+          So, basically, Js ES6 class inherits from the React "Component" Class. 
+       
+          Example:    
+          class ClassName extends Component { 
+               //some methods and properties 
+          } 
+     
+     
+        
+        
         
     
             
