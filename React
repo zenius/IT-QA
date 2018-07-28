@@ -1,76 +1,72 @@
-1. What is React?
-Ans: React is the 'V' in the MVC(Model View Controller). It is not a SPA(Single Page Application) framework but a  view library. 
-     Here, your view is hierarchy of components. 
+    1. What is React?
+    Ans: React is the 'V' in the MVC(Model View Controller). It is not a SPA(Single Page Application) framework but a  view library.Here, your view is hierarchy of components. 
 
-2. What are the basic steps to follow to install React?
-Ans:  1. Before installing React, you need to install: 
-     - node.js [link: https://nodejs.org/en/download/]
-     
-    "Note": 
-    To check whether, it is installed properly or not: 
-    Type in command line: npm --version  [it will display the version for you if it is correctly installed]
-    
-   2.Next Step is to choose "Editor": 
-    There are plenty of them out there (Sublime, Atom, VS Code,etc.) 
-    I personally prefer: Visual Studio Code [link: https://code.visualstudio.com/download]
-    
-    3. Finally, In Your Editor or command line: 
-       create a folder: md folder-name  [E.g. md my-react-app]
-       switch to the path: cd folder-name [E.g. cd my-react-app] 
-       Now, install required libraries: npm install -g react react-dom  [react and react-dom are two required libraries to install]
-       Then, create your first React app: create-react-app your-app-name [E.g. create-react-app my-react-app]
-       Last but not least: npm --init [It will intiliaze your package.json file]
-       
-       You are ready to go!
-       To start type: npm start  [It will run local server]
-       
-       "Note": 
-       These are basic configurations required to install React. 
-       Later, you can add more libraries and change configurations depending on your application need. 
-       
-       It is better to install zero configuration setup globally. 
-       Type in your command line: npm install -g create-react-app   
-       You can check the version as: create-react-app --version 
- 
- 3. What is JSX? 
- Ans: JSX is the syntax extension to Javascript. It looks something like this: 
-      const element = <h1> hello world </h1>; 
-      
-      It looks similar to HTML Tag but is something more...
-      It combines the features of Javascript with HTML Tag. 
-      
-      So, you can do something like this: 
-      <div> {element} </div>   
-      The above statement is equivalent to: 
-      <div> <h1> hello world </h1> </div> 
+    2. What are the basic steps to follow to install React?
+    Ans:  1. Before installing React, you need to install: 
+    - node.js [link: https://nodejs.org/en/download/]
 
-      Note: We will explore something more very soon...
-      
-  4. Why use 'const' and 'let' over 'var'?
-  Ans: Generally, 'var' is used to decalare the variable. But due to its side effects! it is being replaced by 'let and 'const'. 
-       When to use 'let': 
-       Use 'let' whenever you know your value will change. 
-       
-       When to use 'const': 
-       Use 'const' whenever you know your value will not change.
-       
-       For example: 
-       let value = 5; 
-       value = 6 ; //here, the value is changed. 
-       value = "i am not a string"; //not allowed
-       
-       
-       const greet = "hello"; 
-       greet = "Good Morning";  //not allowed 
-       
-       But be careful, when you use 'let' and 'const' to declare variables. 
-       
-       We will explore more about 'let' and 'const' very soon...
-      
-      
- 
-       
-       
-    
-    
-    
+      "Note": 
+      To check whether, it is installed properly or not: 
+      Type in command line: npm --version  [it will display the version for you if it is correctly installed]
+
+      2.Next Step is to choose "Editor": 
+      There are plenty of them out there (Sublime, Atom, VS Code,etc.) 
+      I personally prefer: Visual Studio Code [link: https://code.visualstudio.com/download]
+
+      3. Finally, In Your Editor or command line: 
+      create a folder: md folder-name  [E.g. md my-react-app]
+      switch to the path: cd folder-name [E.g. cd my-react-app] 
+      Now, install required libraries: npm install -g react react-dom  [react and react-dom are two required libraries to install]
+      Then, create your first React app: create-react-app your-app-name [E.g. create-react-app my-react-app]
+      Last but not least: npm --init [It will intiliaze your package.json file]
+
+      You are ready to go!
+      To start type: npm start  [It will run local server]
+
+      "Note": 
+      These are basic configurations required to install React. 
+      Later, you can add more libraries and change configurations depending on your application need. 
+
+      It is better to install zero configuration setup globally. 
+      Type in your command line: npm install -g create-react-app   
+      You can check the version as: create-react-app --version 
+
+    3. What is JSX? 
+    Ans: JSX is the syntax extension to Javascript. It looks something like this: 
+        const element = <h1> hello world </h1>; 
+
+        It looks similar to HTML Tag but is something more...
+        It combines the features of Javascript with HTML Tag. 
+
+        So, you can do something like this: 
+        <div> {element} </div>   
+        The above statement is equivalent to: 
+        <div> <h1> hello world </h1> </div> 
+
+        Note: We will explore something more very soon...
+
+    4. Why use 'const' and 'let' over 'var'?
+    Ans: Generally, 'var' is used to decalare the variable. But due to its side effects! it is being replaced by 'let and 'const'. 
+        When to use 'let': 
+        Use 'let' whenever you know your value will change. 
+
+        When to use 'const': 
+        Use 'const' whenever you know your value will not change.
+
+        For example: 
+        let value = 5; 
+        value = 6 ; //here, the value is changed. 
+        value = "i am not a string"; //not allowed
+        
+        const greet = "hello"; 
+        greet = "Good Morning";  //not allowed 
+        But be careful, when you use 'let' and 'const' to declare variables. 
+        We will explore more about 'let' and 'const' very soon...
+
+
+
+
+
+
+
+
