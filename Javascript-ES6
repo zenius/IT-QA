@@ -1,2 +1,26 @@
-
-dadfd
+1. Can you tell something about "Destructuring" in Javascript ES6? 
+Ans: The destructuring assignment syntax is a JavaScript expression that makes it possible to unpack values from arrays, or properties 
+     from objects, into distinct variables.
+     
+     Example: 
+     //ES6
+     const username = { 
+        firstName: 'zenius',
+        lastName: 'lama'
+     }; 
+     const {firstName, lastName} = userName; 
+     console.log(firstName + ' ' + lastName);  //zenius lama 
+     
+     In ES5, you had to do something like this: 
+      const username = { 
+        firstName: 'zenius',
+        lastName: 'lama'
+     }; 
+     
+     const firstName =  zenius.firstName; 
+     const lastName = zenius.lastName; 
+     console.log(firstName + ' ' + lastName);  //zenius lama
+     
+     Thus, it is elegant way of extracting the values from the array or properties from object into distinct variables. 
+     
+     
