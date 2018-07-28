@@ -23,4 +23,18 @@ Ans: The destructuring assignment syntax is a JavaScript expression that makes i
      
      Thus, it is elegant way of extracting the values from the array or properties from object into distinct variables. 
      
+     Let us see the destructuring of array.
+     //ES6 
+     const array = [1,2,3]; 
+     const {firstNum,middleNum} = array; 
+     console.log(firstNum);  //1
+     console.log(middleNum); //2
+     
+     
+     In ES5 Version, you had to do something like this: 
+     const array = [1,2,3]; 
+     const firstNum =  array[0], middleNum = array[1]; 
+     console.log(firstNum);  //1
+     console.log(middleNum); //2
+     
      
