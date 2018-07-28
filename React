@@ -85,6 +85,25 @@
            //do not use index as key 
             <ul> {personList.map( (item, key) =>  <li key = {key} > {item.name}</li>  }</ul>
             
+    6. Do you know about Arrow functions? 
+    Ans: Arrow functions are short hand notation for function expressions in Javascript. 
+        Js ES6 introduced Arrow functions. 
+        Example:
+        function() { //do something }  is equivalent to   () =>  { //do something  } 
+        
+        function add(a,b) {     
+            return a + b; 
+        }  
+        
+        add(4,5);   //9
+        
+        is equivalent to 
+        
+        const add = (a , b) => a + b; 
+        add(4,5);  //9
+        
+    
+            
             
            
 
