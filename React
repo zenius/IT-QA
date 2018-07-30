@@ -130,7 +130,51 @@
           Note: 
           This is the basic introductiont to object initializer. We will explore more about object initializer...
      
-        
+     10. What are the two commonly used lifecycle methods in React Component? 
+     Ans: The simple structure of ES6 class Component looks something like this: 
+          
+          class className extends Component  { 
+            //do something here 
+          }
+          
+          When you declare your ES6 class component, we generally use two lifecycle methods: constructor() and render()
+          1.constructor(): This lifecycle method is used to initialize the state of the component. 
+          
+          Example: 
+          
+          class className extends Component  { 
+                constructor(props) { 
+                    super(props);    //this line is mandatory 
+                    this.state = { 
+                      //initialize  your state here 
+                    } 
+                }     
+          } 
+          
+          2. render(): By name, it is clear that it is use for displaying the component in web browser. 
+          Example: 
+          
+          class className extends Component  { 
+            render() { 
+                //your JSX element goes here  
+             } 
+          } 
+          
+     
+     Note: 
+     1. The lifecycle methods get hooked when declare Javascript ES6 class extending Component. So, these methods are not available 
+     in functional stateless component. 
+     2.Among these two methods, render() is compulsory to render the elements of component. 
+     3. If you want to export this declare component to another component, you can do something like this: 
+     
+       export default className;   //after the class declaration 
+       
+       import className from 'path-to-file(relative/absolute)' ; //declaration in another component 
+       
+       
+     
+          
+     
         
         
     
