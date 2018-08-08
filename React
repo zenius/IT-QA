@@ -171,6 +171,46 @@
        
        import className from 'path-to-file(relative/absolute)' ; //declaration in another component 
        
+    11. Why to use Typescript over Javascript? 
+    Ans: The below examples will illustrate the advantages of Typescript over Javascript. 
+    
+        i. Typescript is strongly typed javascript. 
+            For example: 
+            const iAmNumber: number = 0;  // const iAmNumber = 0;  
+            const iAmString: string = "";   // const iAmString = ""
+            
+            Note: 
+            The type of variables is automatically inferred if initialize int the declaration statement. 
+            
+        ii. Easy to fix bug. 
+            For example: 
+            //ES5 
+             function add(x,y) {
+                return x + y; 
+             } 
+       
+             Above function can add variable of any type, which leads to the potential bug as explained below. 
+             
+             const iAmNumber = 5; 
+             const iAmObject = {};
+             
+            console.log(add(iAmNumber,iAmObject)); // 5[object Object]  , this is undesirable side effect 
+            
+            
+            // we can rectify this function to add two numbers as follows
+            
+            function add(x: number, y: number)  { 
+                return x + y; 
+            } 
+            
+            const iAmNumber = 5; 
+            const iAmAnotherNumber = 6; 
+             
+            console.log(add(5,6));  // 11  
+            //console.log(add(5, {}); //this will throw error, 'object type' is not assignable to the 'number type' . 
+            
+            
+       
        
      
           
